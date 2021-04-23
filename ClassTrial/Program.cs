@@ -7,7 +7,6 @@ namespace ClassTrial
 
         public static void Main(string[] args)
         {
-
             int userOption = 0;
             App myApp = new App();
 
@@ -57,6 +56,7 @@ namespace ClassTrial
                 }
             } while (userOption != 7);
         }
+
 
         public static void printMenu()
         {
